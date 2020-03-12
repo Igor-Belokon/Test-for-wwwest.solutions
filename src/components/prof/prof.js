@@ -26,13 +26,13 @@ export default class Profile extends React.Component {
         <div className="header">
           <div className="header-img">Home</div>
           <div className="header-button-container">
-            <div className="header-button">Home</div>
+            <div className="header-button" onClick={this.onHome}>
+              Home
+            </div>
             <div className="header-button" onClick={this.onNews}>
               News
             </div>
-            <div className="header-button" onClick={this.onHome}>
-              Prof
-            </div>
+            <div className="header-button">Prof</div>
           </div>
         </div>
         <div className="main-block2">
