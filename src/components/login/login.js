@@ -13,6 +13,8 @@ class Login extends React.Component {
     if (this.state.login === "admin" && this.state.password === "12345") {
       this.setState({ authorized: true });
       this.props.correctLogin(this.state.authorized);
+    } else {
+      alert("The username or password you entered is incorrect");
     }
   };
   handleChange = event => {
