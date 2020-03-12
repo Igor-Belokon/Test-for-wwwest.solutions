@@ -15,12 +15,13 @@ export default class Profile extends React.Component {
   render() {
     const { home } = this.state;
     const { news } = this.state;
-    if (news) {
-      return <Redirect to="/news" />;
-    }
     if (home) {
       return <Redirect to="/home" />;
     }
+    if (news) {
+      return <Redirect to="/news" />;
+    }
+
     return (
       <div>
         <div className="header">
