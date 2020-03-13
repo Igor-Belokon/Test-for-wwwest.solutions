@@ -39,7 +39,7 @@ class News extends React.Component {
     return (
       <div>
         <div className="header">
-          <div className="header-img">log</div>
+          <div className="header-img">News</div>
           <div className="header-button-container">
             <div className="header-button" onClick={this.onHome}>
               Home

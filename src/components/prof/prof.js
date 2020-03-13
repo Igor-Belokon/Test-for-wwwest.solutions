@@ -25,7 +25,7 @@ export default class Profile extends React.Component {
     return (
       <div>
         <div className="header">
-          <div className="header-img">Home</div>
+          <div className="header-img">Profile</div>
           <div className="header-button-container">
             <div className="header-button" onClick={this.onHome}>
               Home
